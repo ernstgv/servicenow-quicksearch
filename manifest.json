@@ -1,0 +1,11 @@
+{
+  "name": "SnowSearch",
+  "description" : "Search ServiceNow Tickets.",
+  "version": "1",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "omnibox": { "keyword" : "sn" },
+  "manifest_version": 2
+}
